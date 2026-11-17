@@ -14,3 +14,8 @@ data/
 
 # Notebook checkpoints
 .ipynb_checkpoints/
+
+# Personal Claude Code instructions (local only)
+CLAUDE.md
+
+docs/project-context.md
