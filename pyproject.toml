@@ -1,0 +1,29 @@
+[project]
+name = "hoopframe"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Rohxn14", email = "146233006+Rohxn14@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "mplbasketball>=1.0.1",
+    "numpy>=1.26.4",
+    "polars>=2.1.0",
+]
+
+[project.scripts]
+hoopframe = "hoopframe:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "pytest>=9.2.0",
+    "ruff>=0.17.5",
+]
